@@ -1,0 +1,25 @@
+@id = vini4
+
+######### Start the workflow
+POST http://localhost:8080/start HTTP/1.1
+content-type: application/json
+
+{
+    "id": "{{id}}"
+}
+
+######### Unblock the workflow
+POST http://localhost:8080/unblock HTTP/1.1
+content-type: application/json
+
+{
+    "id": "{{id}}"
+}
+
+######### Cancel the workflow
+POST http://localhost:8080/cancel HTTP/1.1
+content-type: application/json
+
+{
+    "id": "{{id}}"
+}
