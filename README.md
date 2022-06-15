@@ -1,5 +1,7 @@
 # Temporal Demo (Signals and Queries)
 
+[Modified from Temporal Typescript Samples](https://github.com/temporalio/samples-typescript)
+
 ## Getting Started
 
 1. Use `./terraform` to deploy an AKS cluster
